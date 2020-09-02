@@ -1,0 +1,148 @@
+.banner {
+  background: var(--igx-primary-300);
+  height: 136px;
+  padding: 0% 20.5% 0% 22%;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &__text {
+    margin: 32px 0;
+    .icon {
+      margin-right: 8px;
+    }
+    align-items: center;
+  }
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+
+  &--centered {
+    justify-content: center;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  
+  &--padded {
+    padding: 24px;
+  }
+
+  &--centered {
+    justify-content: center;
+    align-items: center;
+
+    .row {
+      align-items: center;
+    }
+  }
+}
+
+.feed {
+  background-color: transparent;
+  width: 768px;
+}
+
+.events {
+  .events__banner {
+    padding: 5px 16px;
+    justify-content: space-between;
+    background: var(--igx-primary-100);
+  }
+
+  .events__post {
+    padding-top: 1px;
+  }
+}
+
+.benefits__header {
+  height: 56px;
+  align-items: center;
+  padding: 8px 16px 0px 16px;
+
+  .icon {
+    margin-right: 8px;
+  }
+}
+
+
+.middle {
+  background-color: var(--igx-grays-100);
+
+  &__content {
+    margin-top: -32px;
+    justify-content: space-between;
+    width: 1200px;
+  }
+}
+
+
+.social {
+  background-color: var(--igx-surface-500);
+  width: 400px;
+  
+  .section {
+    padding: 16px 16px 8px 16px;
+  }
+
+  &__personal-info {
+    display: flex;
+    align-items: center;
+    background-color: var(--igx-grays-300);
+    padding: 16px 16px;
+
+    .section {
+      margin: 0px 16px;
+      padding: 0px;
+    }
+  }
+
+  &__buttons {
+    .row {
+      justify-content: stretch;
+    }
+
+    .button2 {
+      margin: 0 8px 0 0;
+      flex: 1 1 auto;
+    }
+
+    .section {
+      padding: 0px 16px;
+    }
+  }
+
+  &__time-off {
+    padding: 8px 0px 0px 0px;
+    .section {
+      flex: 0 1 50%;
+
+      .padded {
+        margin: 0 0 8px;
+        padding: 0px;
+
+        h6 {
+          padding: 0px;
+          margin: 0px 8px 0px 0px;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  height: 40px;
+  justify-content: space-around;
+
+  .icon {
+    margin-right: 8px;
+  }
+}
+

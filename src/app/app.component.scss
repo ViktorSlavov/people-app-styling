@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  padding: 16px 32px;
+}
+.row2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+}
+.title1 {
+  margin: 0 16px 0 0;
+  text-align: Left;
+}
+.button1 {
+  margin: 0 8px 0 0;
+}
+.avatar1 {
+  margin: 0 0 0 16px;
+}
+.views1 {
+  flex: 1 1 auto;
+}

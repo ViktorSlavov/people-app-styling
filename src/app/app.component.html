@@ -1,0 +1,26 @@
+<div class="row1">
+  <div class="row2">
+    <h6 class="title1">Springfield Power Co.</h6>
+    <button igxButton="flat" [disabled]="false" type="flat" routerLink="/home" class="button1">
+      Home
+    </button>
+    <button igxButton="flat" [disabled]="false" type="flat" routerLink="/my-info" class="button1">
+      My Info
+    </button>
+    <button igxButton="flat" [disabled]="true" type="flat" class="button1">
+      People
+    </button>
+    <button igxButton="flat" [disabled]="true" type="flat" class="button1">
+      My files
+    </button>
+  </div>
+  <div class="row2">
+    <button igxButton="icon" [disabled]="false" type="icon">
+      <igx-icon>inbox</igx-icon>
+    </button>
+    <igx-avatar size="small" src="https://avatarfiles.alphacoders.com/693/69306.jpg" [roundShape]="true" class="avatar1"></igx-avatar>
+  </div>
+</div>
+<div class="views1">
+  <router-outlet></router-outlet>
+</div>

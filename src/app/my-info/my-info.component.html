@@ -1,0 +1,169 @@
+<div class="row17">
+  <div class="row18">
+    <div class="row19">
+      <img src="https://avatarfiles.alphacoders.com/693/69306.jpg" class="image1" />
+    </div>
+    <div class="column8">
+      <h4 class="title16">Homer Simpson</h4>
+      <h6 class="title16">Nuclear Safety Inspector</h6>
+    </div>
+  </div>
+</div>
+<div class="row20">
+  <div class="row21">
+    <div class="column9">
+      <div class="row22">
+        <p class="igx-typography__subtitle-2 title17">Hire date</p>
+        <p class="igx-typography__body-2 title16">Jan 1, 2001</p>
+        <p class="igx-typography__caption title16">19 yrs, 8 months</p>
+      </div>
+      <div class="row22">
+        <div class="row23">
+          <igx-icon [isActive]="true" fontSet="material" class="icon12">work</igx-icon>
+          <p class="igx-typography__caption title16">Nuclear disposal</p>
+        </div>
+        <div class="row23">
+          <igx-icon [isActive]="true" fontSet="material" class="icon12">account_balance</igx-icon>
+          <p class="igx-typography__caption title16">Waste Management </p>
+        </div>
+        <div class="row24">
+          <igx-icon [isActive]="true" fontSet="material" class="icon12">place</igx-icon>
+          <p class="igx-typography__caption title16">Springfield, USA</p>
+        </div>
+      </div>
+      <div class="column10">
+        <p class="igx-typography__subtitle-2 title17">Manager</p>
+        <div class="row24">
+          <igx-avatar size="small" src="https://pbs.twimg.com/profile_images/441205366399836160/ySRBfzek_400x400.jpeg" [roundShape]="true" class="icon12"></igx-avatar>
+          <p class="igx-typography__body-2 title16">Montgomery Burns</p>
+        </div>
+      </div>
+    </div>
+    <div class="column11">
+      <div class="row25">
+        <button igxButton="flat" [disabled]="false" type="flat" class="icon12">
+          Personal
+        </button>
+        <button igxButton="flat" [disabled]="true" type="flat" class="icon12">
+          Job
+        </button>
+        <button igxButton="flat" [disabled]="true" type="flat" class="icon12">
+          Time-off
+        </button>
+        <button igxButton="flat" [disabled]="true" type="flat" class="icon12">
+          Emergency
+        </button>
+        <button igxButton="flat" [disabled]="true" type="flat" class="icon12">
+          Documents
+        </button>
+        <button igxButton="flat" [disabled]="true" type="flat" class="icon12">
+          Benefits
+        </button>
+        <button igxButton="flat" [disabled]="true" type="flat" class="icon12">
+          Pay
+        </button>
+      </div>
+      <div class="row26">
+        <igx-icon [isActive]="true" fontSet="material" class="icon12">person</igx-icon>
+        <h5 class="title16">Personal</h5>
+      </div>
+      <p class="igx-typography__subtitle-1 title18">Basic Information</p>
+      <div class="row27">
+        <igx-input-group type="bootstrap" class="icon12">
+          <label igxLabel for="inputField">First name</label>
+          <input type="text" igxInput name="inputField" [required]="false" [disabled]="true" value="Homer" />
+        </igx-input-group>
+        <igx-input-group type="bootstrap" class="icon12">
+          <label igxLabel for="inputField">Middle</label>
+          <input type="text" igxInput name="inputField" [required]="false" [disabled]="true" value="Jay" />
+        </igx-input-group>
+        <igx-input-group type="bootstrap">
+          <label igxLabel for="inputField">Last name</label>
+          <input type="text" igxInput name="inputField" [required]="false" [disabled]="true" value="Simpson" />
+        </igx-input-group>
+      </div>
+      <igx-input-group type="bootstrap" class="input5">
+        <label igxLabel for="inputField">Birth date</label>
+        <input type="date" igxInput name="inputField" [required]="false" [disabled]="false" [value]="date" />
+      </igx-input-group>
+      <div class="row27">
+        <igx-input-group type="bootstrap" class="icon12">
+          <label igxLabel for="inputField">Gender</label>
+          <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" value="Male" />
+        </igx-input-group>
+        <igx-input-group type="bootstrap" class="icon12">
+          <label igxLabel for="inputField">Marital Status</label>
+          <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" value="Married" />
+        </igx-input-group>
+      </div>
+      <igx-input-group type="bootstrap" class="input5">
+        <label igxLabel for="inputField">Address 1</label>
+        <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" value="123 Wallaby Lane" />
+      </igx-input-group>
+      <div class="row26">
+        <igx-input-group type="bootstrap" class="icon12">
+          <label igxLabel for="inputField">City</label>
+          <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" value="Springfield" />
+        </igx-input-group>
+        <igx-input-group type="bootstrap" class="input11">
+          <label igxLabel for="inputField">State</label>
+          <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" value="Illinois" />
+        </igx-input-group>
+        <igx-input-group type="bootstrap" class="input13">
+          <label igxLabel for="inputField">Zip</label>
+          <input type="numeric" igxInput name="inputField" [required]="false" [disabled]="false" />
+        </igx-input-group>
+      </div>
+      <p class="igx-typography__subtitle-1 title19">Contact</p>
+      <p class="igx-typography__subtitle-2 title19">Phone</p>
+      <igx-input-group type="bootstrap" class="input5">
+        <igx-prefix>
+          <igx-icon [isActive]="true" fontSet="material">work</igx-icon>
+        </igx-prefix>
+        <label igxLabel for="inputField">Home phone</label>
+        <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" value="(123) 345-6789" />
+        <igx-suffix>
+          <igx-icon [isActive]="true" fontSet="material">clear</igx-icon>
+        </igx-suffix>
+      </igx-input-group>
+      <igx-input-group type="bootstrap" class="input5">
+        <igx-prefix>
+          <igx-icon [isActive]="true" fontSet="material">phone_android</igx-icon>
+        </igx-prefix>
+        <label igxLabel for="inputField">Cell phone</label>
+        <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" />
+      </igx-input-group>
+      <igx-input-group type="bootstrap" class="input5">
+        <igx-prefix>
+          <igx-icon [isActive]="true" fontSet="material">home</igx-icon>
+        </igx-prefix>
+        <label igxLabel for="inputField">Home phone</label>
+        <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" />
+      </igx-input-group>
+      <p class="igx-typography__subtitle-2 title18">Email</p>
+      <igx-input-group type="bootstrap" class="input5">
+        <igx-prefix>
+          <igx-icon [isActive]="true" fontSet="material">work</igx-icon>
+        </igx-prefix>
+        <label igxLabel for="inputField">Email -home</label>
+        <input type="email" igxInput name="inputField" [required]="false" [disabled]="false" />
+      </igx-input-group>
+      <igx-input-group type="bootstrap" class="input5">
+        <igx-prefix>
+          <igx-icon [isActive]="true" fontSet="material">home</igx-icon>
+        </igx-prefix>
+        <label igxLabel for="inputField">Email - work</label>
+        <input type="text" igxInput name="inputField" [required]="false" [disabled]="false" />
+      </igx-input-group>
+    </div>
+  </div>
+</div>
+<div class="row28">
+  <div class="row29">
+    <div class="row24">
+      <igx-icon [isActive]="true" fontSet="material" class="icon12">copyright</igx-icon>
+      <p class="igx-typography__body-2 title16">Copyright 1998 - 2020</p>
+    </div>
+    <p class="igx-typography__body-2 title16">Springfield Power Co.</p>
+  </div>
+</div>
