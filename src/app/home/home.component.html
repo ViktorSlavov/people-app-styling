@@ -136,13 +136,13 @@
 
 <!-- New layout -->
 <div class="row banner">
-  <div class="row banner__text">
+  <div class="row logo-text">
     <igx-icon [isActive]="true" fontSet="material" class="icon">home</igx-icon>
     <h4 class="title2">Home</h4>
   </div>
 </div>
 <div class="middle row row--centered">
-  <div class="row row--centered middle__content">
+  <div class="row row--centered">
     <div class="social">
       <div class="social__personal-info">
         <igx-avatar size="medium" src="https://avatarfiles.alphacoders.com/693/69306.jpg" [roundShape]="true">
@@ -153,13 +153,13 @@
         </div>
       </div>
       <div class="social__time-off row">
-        <div class="column section column--centered">
+        <div class="column section">
           <p class="igx-typography__subtitle-2 padded">Open PTO</p>
           <igx-icon [isActive]="true" fontSet="material" class="icon padded">date_range</igx-icon>
           <p class="igx-typography__body-2">8.5 DAYS USED (YTD)</p>
           <p class="igx-typography__caption">1 day scheduled</p>
         </div>
-        <div class="column section column--centered">
+        <div class="column section">
           <p class="igx-typography__subtitle-2 padded">Bereavement leave</p>
           <div class="row padded">
             <h6>0.0</h6>
@@ -169,16 +169,16 @@
           <p class="igx-typography__caption">0 day(s) scheduled</p>
         </div>
       </div>
-      <div class="row social__buttons section">
+      <div class="row social__buttons">
         <button igxButton="raised" [disabled]="false" class="button2">
-          <igx-icon class="button">send</igx-icon>
+          <igx-icon class="button icon">send</igx-icon>
           Request Time Off
         </button>
         <button igxButton="icon" [disabled]="false" type="icon">
           <igx-icon>email</igx-icon>
         </button>
       </div>
-      <div class="section">
+      <div class="social__anniversaries column">
         <p class="igx-typography__subtitle-2">Celebrations</p>
         <igx-list class="list1">
           <igx-list-item>

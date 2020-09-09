@@ -1,11 +1,11 @@
 .banner {
   background: var(--igx-primary-300);
   height: 136px;
-  padding: 0% 20.5% 0% 22%;
+  padding: 0% 22.5rem;
   justify-content: flex-start;
   align-items: flex-start;
 
-  &__text {
+  .logo-text {
     margin: 32px 0;
     .icon {
       margin-right: 8px;
@@ -26,7 +26,6 @@
     justify-content: center;
   }
 }
-
 .column {
   display: flex;
   flex-direction: column;
@@ -34,32 +33,32 @@
   &--padded {
     padding: 24px;
   }
-
-  &--centered {
-    justify-content: center;
-    align-items: center;
-
-    .row {
-      align-items: center;
-    }
-  }
 }
+
+.row > .column {
+  justify-content: center;
+  align-items: center;
+}
+
+.column > .row {
+  align-items: center;
+}
+
 
 .feed {
   background-color: transparent;
   width: 768px;
 }
 
-.events {
-  .events__banner {
-    padding: 5px 16px;
-    justify-content: space-between;
-    background: var(--igx-primary-100);
-  }
 
-  .events__post {
-    padding-top: 1px;
-  }
+.events__banner {
+  padding: 5px 16px;
+  justify-content: space-between;
+  background: var(--igx-primary-100);
+}
+
+.events__post {
+  padding-top: 1px;
 }
 
 .benefits__header {
@@ -76,8 +75,9 @@
 .middle {
   background-color: var(--igx-grays-100);
 
-  &__content {
+  & > .row {
     margin-top: -32px;
+    padding: 0px 0px 32px 0px;
     justify-content: space-between;
     width: 1200px;
   }
@@ -105,6 +105,8 @@
   }
 
   &__buttons {
+    padding: 0 16px;
+    margin: 0 0 16px;
     .row {
       justify-content: stretch;
     }
@@ -117,10 +119,22 @@
     .section {
       padding: 0px 16px;
     }
+
+    .icon {
+      margin: 8px;
+    }
+  }
+
+  &__anniversaries {
+    padding: 0px 16px 16px 16px;
+
+    p {
+      padding: 0px 0px 8px 0px
+    }
   }
 
   &__time-off {
-    padding: 8px 0px 0px 0px;
+    padding: 8px 0px 16px 0px;
     .section {
       flex: 0 1 50%;
 
